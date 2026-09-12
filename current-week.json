@@ -1,31 +1,103 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "week": {
     "start": "2026-09-08",
     "end": "2026-09-14",
     "label": "Sep 8–14"
   },
-  "generatedAt": "2026-09-12T13:39:00-07:00",
+  "generatedAt": "2026-09-12T14:45:00-07:00",
   "authoritativeSource": "BetOnline scraper",
+  "reconciliation": {
+    "source": "ESPN",
+    "status": "partial",
+    "unmatchedGames": [
+      "South Florida @ Army",
+      "Tulsa @ Sam Houston",
+      "New England Patriots @ Seattle Seahawks"
+    ]
+  },
   "bets": [
-    {"betId":"995196362-2","sport":"College","structure":"same_game_parlay","awayTeam":"Oregon","homeTeam":"Oklahoma State","risk":25,"toWin":32.50,"betOnlineStatus":"OPEN","espnEventId":null,"legs":[]},
-    {"betId":"995196362-1","sport":"College","structure":"same_game_parlay","awayTeam":"Oregon","homeTeam":"Oklahoma State","risk":25,"toWin":27.50,"betOnlineStatus":"OPEN","espnEventId":null,"legs":[]},
-    {"betId":"995195807-1","sport":"College","structure":"straight","market":"total","awayTeam":"Ohio State","homeTeam":"Texas","selection":"Under","line":49.5,"odds":-112,"risk":40,"toWin":35.71,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195720-1","sport":"College","structure":"parlay","risk":5,"toWin":6055,"betOnlineStatus":"OPEN","legs":[]},
-    {"betId":"995195555-11","sport":"College","structure":"straight","market":"spread","awayTeam":"Texas Tech","homeTeam":"Oregon State","selection":"Oregon State","line":25.5,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-10","sport":"College","structure":"straight","market":"spread","awayTeam":"Iowa State","homeTeam":"Iowa","selection":"Iowa State","line":14,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-9","sport":"College","structure":"straight","market":"spread","awayTeam":"Tennessee","homeTeam":"Georgia Tech","selection":"Georgia Tech","line":11.5,"odds":-105,"risk":40,"toWin":38.10,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-8","sport":"College","structure":"straight","market":"spread","awayTeam":"Tulsa","homeTeam":"Sam Houston","selection":"Sam Houston","line":13.5,"odds":-115,"risk":40,"toWin":34.78,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-7","sport":"College","structure":"straight","market":"spread","awayTeam":"South Alabama","homeTeam":"Tulane","selection":"South Alabama","line":9.5,"odds":-109,"risk":40,"toWin":36.70,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-6","sport":"College","structure":"straight","market":"spread","awayTeam":"Jacksonville State","homeTeam":"Ohio","selection":"Ohio","line":-2.5,"odds":-107,"risk":40,"toWin":37.38,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-5","sport":"College","structure":"straight","market":"spread","awayTeam":"Memphis","homeTeam":"Boise State","selection":"Memphis","line":8,"odds":-105,"risk":40,"toWin":38.10,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-4","sport":"College","structure":"straight","market":"spread","awayTeam":"Rice","homeTeam":"Notre Dame","selection":"Rice","line":45,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-3","sport":"College","structure":"straight","market":"spread","awayTeam":"California","homeTeam":"Syracuse","selection":"California","line":3.5,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-2","sport":"College","structure":"straight","market":"spread","awayTeam":"South Florida","homeTeam":"Army","selection":"South Florida","line":3.5,"odds":-116,"risk":40,"toWin":34.48,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"995195555-1","sport":"College","structure":"straight","market":"first_half_total","awayTeam":"Oklahoma","homeTeam":"Michigan","selection":"Under","line":21.5,"odds":-117,"risk":40,"toWin":34.19,"betOnlineStatus":"WON","espnEventId":null},
-    {"betId":"994984850-2","sport":"College","structure":"straight","market":"spread","awayTeam":"Arizona State","homeTeam":"Texas A&M","selection":"Arizona State","line":15,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"994984850-1","sport":"College","structure":"straight","market":"spread","awayTeam":"Wake Forest","homeTeam":"Purdue","selection":"Purdue","line":3.5,"odds":-124,"risk":40,"toWin":32.26,"betOnlineStatus":"OPEN","espnEventId":null,"notes":"Bought 0.5 point"},
-    {"betId":"994540245-2","sport":"College","structure":"straight","market":"spread","awayTeam":"Mississippi State","homeTeam":"Minnesota","selection":"Mississippi State","line":-1,"odds":-106,"risk":40,"toWin":37.74,"betOnlineStatus":"OPEN","espnEventId":null},
-    {"betId":"994540245-1","sport":"College","structure":"straight","market":"spread","awayTeam":"Old Dominion","homeTeam":"Virginia Tech","selection":"Old Dominion","line":19.5,"odds":-112,"risk":40,"toWin":35.71,"betOnlineStatus":"OPEN","espnEventId":null}
+    {
+      "betId": "995196362-2",
+      "acceptedDate": "09/11/26 07:17 PM GMT-7",
+      "sport": "College",
+      "structure": "same_game_parlay",
+      "awayTeam": "Oregon",
+      "homeTeam": "Oklahoma State",
+      "risk": 25,
+      "toWin": 32.5,
+      "betOnlineStatus": "PENDING",
+      "espnEventId": "401856782",
+      "matchConfidence": "exact",
+      "legs": [
+        {"legNumber":1,"market":"moneyline","selection":"Oregon","espnEventId":"401856782","status":"PENDING","raw":"Money line - Oregon"},
+        {"legNumber":2,"market":"player_prop","selection":"Dante Moore 2+ passing TDs","player":"Dante Moore","propType":"passing_tds_gte","line":2,"espnEventId":"401856782","status":"PENDING","raw":"Player stats - Dante Moore 2+ Passing TDs thrown"},
+        {"legNumber":3,"market":"player_prop","selection":"Dakorien Moore anytime TD","player":"Dakorien Moore","propType":"anytime_td","espnEventId":"401856782","status":"PENDING","raw":"Player TDs - Dakorien Moore Score anytime"}
+      ]
+    },
+    {
+      "betId": "995196362-1",
+      "acceptedDate": "09/11/26 07:17 PM GMT-7",
+      "sport": "College",
+      "structure": "same_game_parlay",
+      "awayTeam": "Oregon",
+      "homeTeam": "Oklahoma State",
+      "risk": 25,
+      "toWin": 27.5,
+      "betOnlineStatus": "PENDING",
+      "espnEventId": "401856782",
+      "matchConfidence": "exact",
+      "legs": [
+        {"legNumber":1,"market":"moneyline","selection":"Oregon","espnEventId":"401856782","status":"PENDING","raw":"Money line - Oregon"},
+        {"legNumber":2,"market":"player_prop","selection":"Dakorien Moore anytime TD","player":"Dakorien Moore","propType":"anytime_td","espnEventId":"401856782","status":"PENDING","raw":"Player TDs - Dakorien Moore Score anytime"}
+      ]
+    },
+    {"betId":"995195807-1","acceptedDate":"09/11/26 07:14 PM GMT-7","sport":"College","structure":"straight","market":"total","awayTeam":"Ohio State","homeTeam":"Texas","selection":"Under","line":49.5,"odds":-112,"risk":40,"toWin":35.71,"betOnlineStatus":"PENDING","espnEventId":"401856682","matchConfidence":"exact","rawBetText":"FOOTBALL - 396 Ohio State/Texas under 49½ -112"},
+    {
+      "betId":"995195720-1",
+      "acceptedDate":"09/11/26 07:14 PM GMT-7",
+      "sport":"College",
+      "structure":"parlay",
+      "risk":5,
+      "toWin":6055,
+      "betOnlineStatus":"PENDING",
+      "legs":[
+        {"legNumber":1,"sport":"College","awayTeam":"Oklahoma","homeTeam":"Michigan","market":"total","selection":"Under","side":"under","line":21.5,"odds":-117,"period":"first_half","eventDate":"09/12/2026","eventTime":"12:00:00 PM (EST)","status":"WON","espnEventId":"401856679","matchConfidence":"exact"},
+        {"legNumber":2,"sport":"College","awayTeam":"South Florida","homeTeam":"Army","market":"spread","selection":"South Florida","line":3.5,"odds":-116,"period":"game","eventDate":"09/12/2026","eventTime":"12:00:00 PM (EST)","status":"WON","espnEventId":null,"matchConfidence":"needs_review"},
+        {"legNumber":3,"sport":"College","awayTeam":"California","homeTeam":"Syracuse","market":"spread","selection":"California","line":3.5,"odds":-110,"period":"game","eventDate":"09/12/2026","eventTime":"03:30:00 PM (EST)","status":"PENDING","espnEventId":"401858216","matchConfidence":"exact"},
+        {"legNumber":4,"sport":"College","awayTeam":"Rice","homeTeam":"Notre Dame","market":"spread","selection":"Rice","line":45,"odds":-110,"period":"game","eventDate":"09/12/2026","eventTime":"03:30:00 PM (EST)","status":"PENDING","espnEventId":"401859184","matchConfidence":"exact"},
+        {"legNumber":5,"sport":"College","awayTeam":"Memphis","homeTeam":"Boise State","market":"spread","selection":"Memphis","line":8,"odds":-105,"period":"game","eventDate":"09/12/2026","eventTime":"06:00:00 PM (EST)","status":"PENDING","espnEventId":"401860881","matchConfidence":"exact"},
+        {"legNumber":6,"sport":"College","awayTeam":"Jacksonville State","homeTeam":"Ohio","market":"spread","selection":"Ohio","line":-2.5,"odds":-107,"period":"game","eventDate":"09/12/2026","eventTime":"06:00:00 PM (EST)","status":"PENDING","espnEventId":"401866418","matchConfidence":"exact"},
+        {"legNumber":7,"sport":"College","awayTeam":"South Alabama","homeTeam":"Tulane","market":"spread","selection":"South Alabama","line":9.5,"odds":-109,"period":"game","eventDate":"09/12/2026","eventTime":"07:00:00 PM (EST)","status":"PENDING","espnEventId":"401864575","matchConfidence":"exact"},
+        {"legNumber":8,"sport":"College","awayTeam":"Tulsa","homeTeam":"Sam Houston","market":"spread","selection":"Sam Houston","line":13.5,"odds":-115,"period":"game","eventDate":"09/12/2026","eventTime":"07:00:00 PM (EST)","status":"PENDING","espnEventId":null,"matchConfidence":"needs_review"},
+        {"legNumber":9,"sport":"College","awayTeam":"Tennessee","homeTeam":"Georgia Tech","market":"spread","selection":"Georgia Tech","line":11.5,"odds":-105,"period":"game","eventDate":"09/12/2026","eventTime":"07:00:00 PM (EST)","status":"PENDING","espnEventId":"401856681","matchConfidence":"exact"},
+        {"legNumber":10,"sport":"College","awayTeam":"Iowa State","homeTeam":"Iowa","market":"spread","selection":"Iowa State","line":14,"odds":-110,"period":"game","eventDate":"09/12/2026","eventTime":"07:30:00 PM (EST)","status":"PENDING","espnEventId":"401856788","matchConfidence":"exact"},
+        {"legNumber":11,"sport":"College","awayTeam":"Texas Tech","homeTeam":"Oregon State","market":"spread","selection":"Oregon State","line":25.5,"odds":-110,"period":"game","eventDate":"09/12/2026","eventTime":"07:30:00 PM (EST)","status":"PENDING","espnEventId":"401856783","matchConfidence":"exact"}
+      ]
+    },
+    {"betId":"995195555-11","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Texas Tech","homeTeam":"Oregon State","selection":"Oregon State","line":25.5,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"PENDING","espnEventId":"401856783","matchConfidence":"exact"},
+    {"betId":"995195555-10","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Iowa State","homeTeam":"Iowa","selection":"Iowa State","line":14,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"PENDING","espnEventId":"401856788","matchConfidence":"exact"},
+    {"betId":"995195555-9","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Tennessee","homeTeam":"Georgia Tech","selection":"Georgia Tech","line":11.5,"odds":-105,"risk":40,"toWin":38.10,"betOnlineStatus":"PENDING","espnEventId":"401856681","matchConfidence":"exact"},
+    {"betId":"995195555-8","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Tulsa","homeTeam":"Sam Houston","selection":"Sam Houston","line":13.5,"odds":-115,"risk":40,"toWin":34.78,"betOnlineStatus":"PENDING","espnEventId":null,"matchConfidence":"needs_review"},
+    {"betId":"995195555-7","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"South Alabama","homeTeam":"Tulane","selection":"South Alabama","line":9.5,"odds":-109,"risk":40,"toWin":36.70,"betOnlineStatus":"PENDING","espnEventId":"401864575","matchConfidence":"exact"},
+    {"betId":"995195555-6","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Jacksonville State","homeTeam":"Ohio","selection":"Ohio","line":-2.5,"odds":-107,"risk":40,"toWin":37.38,"betOnlineStatus":"PENDING","espnEventId":"401866418","matchConfidence":"exact"},
+    {"betId":"995195555-5","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Memphis","homeTeam":"Boise State","selection":"Memphis","line":8,"odds":-105,"risk":40,"toWin":38.10,"betOnlineStatus":"PENDING","espnEventId":"401860881","matchConfidence":"exact"},
+    {"betId":"995195555-4","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Rice","homeTeam":"Notre Dame","selection":"Rice","line":45,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"PENDING","espnEventId":"401859184","matchConfidence":"exact"},
+    {"betId":"995195555-3","acceptedDate":"09/11/26 07:13 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"California","homeTeam":"Syracuse","selection":"California","line":3.5,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"PENDING","espnEventId":"401858216","matchConfidence":"exact"},
+    {"betId":"995195555-2","acceptedDate":"09/11/26 07:13 PM GMT-7","gradedDate":"09/12/26 12:19 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"South Florida","homeTeam":"Army","selection":"South Florida","line":3.5,"odds":-116,"risk":40,"toWin":34.48,"betOnlineStatus":"WON","espnEventId":null,"matchConfidence":"needs_review"},
+    {"betId":"995195555-1","acceptedDate":"09/11/26 07:13 PM GMT-7","gradedDate":"09/12/26 10:52 AM GMT-7","sport":"College","structure":"straight","market":"first_half_total","awayTeam":"Oklahoma","homeTeam":"Michigan","selection":"Under","line":21.5,"odds":-117,"risk":40,"toWin":34.19,"betOnlineStatus":"WON","espnEventId":"401856679","matchConfidence":"exact"},
+    {"betId":"994984850-2","acceptedDate":"09/10/26 10:48 PM GMT-7","gradedDate":"09/12/26 12:45 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Arizona State","homeTeam":"Texas A&M","selection":"Arizona State","line":15,"odds":-110,"risk":40,"toWin":36.36,"betOnlineStatus":"LOST","espnEventId":"401856683","matchConfidence":"exact"},
+    {"betId":"994984850-1","acceptedDate":"09/10/26 10:48 PM GMT-7","gradedDate":"09/12/26 12:44 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Wake Forest","homeTeam":"Purdue","selection":"Purdue","line":3.5,"odds":-124,"risk":40,"toWin":32.26,"betOnlineStatus":"WON","espnEventId":"401858224","matchConfidence":"exact","notes":"Bought 0.5 point"},
+    {"betId":"994645112-1","acceptedDate":"09/09/26 04:03 PM GMT-7","gradedDate":"09/09/26 08:47 PM GMT-7","sport":"NFL","structure":"same_game_parlay","awayTeam":"New England Patriots","homeTeam":"Seattle Seahawks","risk":15,"toWin":null,"betOnlineStatus":"LOST","espnEventId":null,"matchConfidence":"needs_review","legs":[
+      {"legNumber":1,"market":"player_prop","selection":"Jadarian Price 50+ Rushing yds","player":"Jadarian Price","propType":"rushing_yards","side":"gte","line":50,"status":"","espnEventId":null},
+      {"legNumber":2,"market":"player_prop","selection":"Drake Maye 1+ Pass interceptions","player":"Drake Maye","propType":"passing_interceptions","side":"gte","line":1,"status":"","espnEventId":null},
+      {"legNumber":3,"market":"player_prop","selection":"R. Stevenson 50+ Rushing yds","player":"R. Stevenson","propType":"rushing_yards","side":"gte","line":50,"status":"","espnEventId":null},
+      {"legNumber":4,"market":"player_prop","selection":"S. Darnold 1+ Pass interceptions","player":"S. Darnold","propType":"passing_interceptions","side":"gte","line":1,"status":"","espnEventId":null}
+    ]},
+    {"betId":"994644089-2","acceptedDate":"09/09/26 04:00 PM GMT-7","gradedDate":"09/09/26 08:37 PM GMT-7","sport":"NFL","structure":"straight","market":"player_prop","awayTeam":"New England Patriots","homeTeam":"Seattle Seahawks","selection":"Hunter Henry Over 3.5 Receptions","player":"Hunter Henry","propType":"receptions","side":"over","line":3.5,"odds":135,"risk":20,"toWin":27,"betOnlineStatus":"LOST","espnEventId":null,"matchConfidence":"needs_review"},
+    {"betId":"994644089-3","acceptedDate":"09/09/26 04:00 PM GMT-7","gradedDate":"09/09/26 08:34 PM GMT-7","sport":"NFL","structure":"straight","market":"player_prop","awayTeam":"New England Patriots","homeTeam":"Seattle Seahawks","selection":"Jadarian Price Over 55.5 Rushing Yards","player":"Jadarian Price","propType":"rushing_yards","side":"over","line":55.5,"odds":-120,"risk":30,"toWin":25,"betOnlineStatus":"LOST","espnEventId":null,"matchConfidence":"needs_review"},
+    {"betId":"994644089-1","acceptedDate":"09/09/26 04:00 PM GMT-7","gradedDate":"09/09/26 08:33 PM GMT-7","sport":"NFL","structure":"straight","market":"player_prop","awayTeam":"New England Patriots","homeTeam":"Seattle Seahawks","selection":"Rhamondre Stevenson Over 23.5 Receiving Yards","player":"Rhamondre Stevenson","propType":"receiving_yards","side":"over","line":23.5,"odds":-125,"risk":30,"toWin":24,"betOnlineStatus":"WON","espnEventId":null,"matchConfidence":"needs_review"},
+    {"betId":"994540245-2","acceptedDate":"09/09/26 07:39 AM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Mississippi State","homeTeam":"Minnesota","selection":"Mississippi State","line":-1,"odds":-106,"risk":40,"toWin":37.74,"betOnlineStatus":"PENDING","espnEventId":"401856677","matchConfidence":"exact"},
+    {"betId":"994540245-1","acceptedDate":"09/09/26 07:39 AM GMT-7","gradedDate":"09/12/26 12:40 PM GMT-7","sport":"College","structure":"straight","market":"spread","awayTeam":"Old Dominion","homeTeam":"Virginia Tech","selection":"Old Dominion","line":19.5,"odds":-112,"risk":40,"toWin":35.71,"betOnlineStatus":"LOST","espnEventId":"401858221","matchConfidence":"exact"}
   ]
 }
